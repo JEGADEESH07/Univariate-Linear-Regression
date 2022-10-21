@@ -35,6 +35,12 @@ c=Y_mean-(m*X_mean)
 Y_pred=(m*X)+c
 print (m, c)
 print (Y_pred)
+import matplotlib.pyplot as plt
+plt.scatter(X,Y,color = 'yellow')
+plt.plot(X,Y_pred,color = 'black')
+plt.title('xv=y')
+plt.show()
+
 ```
 ## Sample Input and Output
 ![inp](./input.jpg)
